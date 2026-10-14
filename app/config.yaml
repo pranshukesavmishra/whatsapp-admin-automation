@@ -1,0 +1,21 @@
+# Edit this file to change what the bot says. Changes apply on the next message, no restart needed.
+welcome: "Hi {name}! Welcome to Sunrise Fitness. Ask me about timings, fees or location, or type your question and the team will reply."
+fallback: "Thanks for your message! A team member will get back to you shortly."
+
+opt_out_keywords: [stop, unsubscribe]
+opt_in_keywords: [start, subscribe]
+opt_out_reply: "Done. You won't receive announcements any more. Reply START anytime to rejoin."
+opt_in_reply: "You're subscribed to announcements again."
+
+faqs:
+  - keywords: [timing, timings, hours, open, close]
+    answer: "We're open 6am–10pm Monday to Saturday, and 7am–1pm on Sunday."
+  - keywords: [fee, fees, price, cost, membership]
+    answer: "Monthly membership is $45. Quarterly is $120 and includes one free personal-training session."
+  - keywords: [location, address, where]
+    answer: "We're at 21 Market Street, next to the City Library."
+
+# Business-initiated messages outside the 24h window must use an approved template.
+# This template should have two body variables: {{1}} = name, {{2}} = announcement text.
+broadcast_template: announcement
+template_language: en
